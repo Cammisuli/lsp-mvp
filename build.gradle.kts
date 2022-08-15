@@ -1,11 +1,11 @@
 plugins {
     id("java")
-    id("org.jetbrains.kotlin.jvm") version "1.6.20"
-    id("org.jetbrains.intellij") version "1.6.0"
+    id("org.jetbrains.kotlin.jvm") version "1.7.10"
+    id("org.jetbrains.intellij") version "1.8.0"
 }
 
 group = "dev.nrwl"
-version = "1.0-SNAPSHOT"
+version = "1.1"
 
 repositories {
     mavenCentral()
@@ -28,7 +28,7 @@ intellij {
 }
 
 tasks {
-    // Set the JVM compatibility versions
+    // Set the JVM compatibility versions®
     withType<JavaCompile> {
         sourceCompatibility = "11"
         targetCompatibility = "11"
