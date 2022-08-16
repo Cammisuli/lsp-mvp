@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "dev.nrwl"
-version = "1.1"
+version = "0.1"
 
 repositories {
     mavenCentral()
@@ -16,6 +16,8 @@ repositories {
 
 dependencies {
     implementation("com.github.ballerina-platform:lsp4intellij:0.95.0")
+    implementation("com.github.pgreze:kotlin-process:1.4")
+    implementation("com.lordcodes.turtle:turtle:0.7.0")
 }
 
 // Configure Gradle IntelliJ Plugin
